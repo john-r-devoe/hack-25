@@ -10,7 +10,7 @@ load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 foursquare_api_key = os.getenv("FOURSQUARE_API_KEY")
 gemini_api_key = os.getenv("GEMINI_API_KEY")
-openai_api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 genai.configure(api_key=gemini_api_key)
 
@@ -81,7 +81,7 @@ atlanta_businesses = {
     "Truist Park": ["755 Battery Ave SE, Atlanta, GA 30339", "Stadium"],
     "State Farm Arena": ["1 State Farm Dr, Atlanta, GA 30303", "Arena"]}
 
-def get_business_data(address, business_type, GOOGLE_API_KEY, foursquare_api_key, openai_api_key):
+def get_business_data(address, business_type, GOOGLE_API_KEY, foursquare_api_key):
     gmaps = googlemaps.Client(key=GOOGLE_API_KEY)
     
     # Get coordinates of the address
@@ -125,40 +125,44 @@ def get_business_data(address, business_type, GOOGLE_API_KEY, foursquare_api_key
     else:
         foot_traffic = "Unavailable"
     
-    # Get population density using ChatGPT
+    #LOOK HERE DHRUV THIS IS WHAT I NEED FIXED
+    '''
     prompt = f"What is the population density at the address: {address}. Return only the number, with no text.As in, do not write ANYTHING other than the number that is the population density."
-    try:
-        response = openai.Completion.create(
-            model="gpt-4",  # Or "gpt-4" if you have access to it
-            messages=[{"role": "system", "content": "You are a helpful assistant."},
-                      {"role": "user", "content": prompt}],
+    response = openai.ChatCompletion.create(
+            model="gpt-4",  # Or "gpt-3.5-turbo"
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=50  # Optional, to control the response length
         )
-        
-        population_density = response['choices'][0]['message']['content'].strip()
-        
-        try:
+
+    population_density = response['choices'][0]['message']['content'].strip()
+    
+    try:
             population_density = float(population_density)  # Attempt to convert to float
-        except ValueError:
+    except ValueError:
             population_density = "Population Data Unavailable"
     except Exception as e:
         print(f"Error with OpenAI API: {e}")
         population_density = "Population Data Unavailable"
+        #STOP MESSING WITH STUFF AFTER HERE
+        '''
     return {
-        "Nearest Competitor Distance": distance,
-        "Estimated Foot Traffic": foot_traffic,
-        "Population Density": population_density
-    }
+    "Nearest Competitor Distance": distance,
+    "Estimated Foot Traffic": foot_traffic, "Population Density": population_density
+}
 
 # Example usage
 business_address = "1600 Amphitheatre Parkway, Mountain View, CA"
 business_category = "restaurant"  # Change based on business type
 
-print(get_business_data(business_address, business_category, GOOGLE_API_KEY, foursquare_api_key, openai_api_key))
+print(get_business_data(business_address, business_category, GOOGLE_API_KEY, foursquare_api_key))
 
 for business, data in atlanta_businesses.items():
     address, category = data
     dataset = {}
-    dataset[business] = get_business_data(address, category, GOOGLE_API_KEY, foursquare_api_key, openai_api_key)
+    dataset[business] = get_business_data(address, category, GOOGLE_API_KEY, foursquare_api_key)
 
 for business in dataset:
     ncd = dataset[business]['Nearest Competitor Distance']
