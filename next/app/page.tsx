@@ -1,7 +1,5 @@
 "use client"
-
-import Image from "next/image";
-import { testDatabaseConnection } from "./actions";
+import { redirect } from 'next/navigation';
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -61,7 +59,7 @@ export default function Home() {
           </button>
         </form>
         <p className="text-center text-[#CFE0C3] mt-4">
-          Don't have an account? <a href="#" className="text-[#CFE0C3] font-bold hover:underline">Sign up</a>
+          Don't have an account? <a href="/signup" className="text-[#CFE0C3] font-bold hover:underline">Sign up</a>
         </p>
       </div>
     </div>
