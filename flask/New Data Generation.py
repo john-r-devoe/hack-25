@@ -150,10 +150,11 @@ def get_business_data(address, business_type, GOOGLE_API_KEY, foursquare_api_key
         '''
     return {
     "Nearest Competitor Distance": distance,
-    "Estimated Foot Traffic": foot_traffic, "Population Density": population_density
+    "Estimated Foot Traffic": foot_traffic
 }
-
+# add "Population Density": population_density if Dhruv fixes above
 # Example usage
+
 business_address = "1600 Amphitheatre Parkway, Mountain View, CA"
 business_category = "restaurant"  # Change based on business type
 
@@ -167,8 +168,8 @@ for business, data in atlanta_businesses.items():
 for business in dataset:
     ncd = dataset[business]['Nearest Competitor Distance']
     eft = dataset[business]['Estimated Foot Traffic']
-    pd = dataset[business]['Population Density']
+    #pd = dataset[business]['Population Density']
     fname = open("data.csv","a")
-    fname.write(f"{business,ncd,eft,pd}")
+    fname.write(f"{business,ncd,eft}")
     fname.readline()
     fname.close()
