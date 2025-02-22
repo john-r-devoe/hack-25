@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 
 
-def get_business_data(address, business_type, google_api_key, foursquare_api_key):
-    gmaps = googlemaps.Client(key=google_api_key)
+def get_business_data(address, business_type, GOOGLE_API_KEY, foursquare_api_key):
+    gmaps = googlemaps.Client(key=GOOGLE_API_KEY)
     
     # Get coordinates of the address
     geocode_result = gmaps.geocode(address)
@@ -57,7 +57,6 @@ def get_business_data(address, business_type, google_api_key, foursquare_api_key
 # Example usage
 business_address = "1600 Amphitheatre Parkway, Mountain View, CA"
 business_category = "restaurant"  # Change based on business type
-google_api_key = "YOUR_GOOGLE_API_KEY"
-foursquare_api_key = "YOUR_FOURSQUARE_API_KEY"
 
-print(get_business_data(business_address, business_category, google_api_key, foursquare_api_key))
+
+print(get_business_data(business_address, business_category, GOOGLE_API_KEY, foursquare_api_key))
