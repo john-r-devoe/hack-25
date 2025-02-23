@@ -1,5 +1,4 @@
 "use server"
-import { SignJWT, jwtVerify } from 'jose'
 import { SessionPayload } from '@/lib/definitions'
 import { cookies } from 'next/headers'
 import { sealData, unsealData } from 'iron-session'
@@ -19,6 +18,7 @@ export async function decrypt(session: string | undefined = ''):Promise<any> {
 }
  
 export async function createSession(userID: string) {
+  console.log("SESSION CREATING")
   const expiresAt = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
   const session = await encrypt({ userID, expiresAt });
   const cookieStore = await cookies();

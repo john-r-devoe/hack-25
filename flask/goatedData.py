@@ -93,12 +93,10 @@ def pointGeneratingFunction(E,P,N):
     predicted_scoreNCD = model.predict(new_data)
     return([predicted_scoreEFT,predicted_scorePD,predicted_scoreNCD])
 
-industry = "Restaurant"
-preferences = [0.45,0.25,0.3]
-address = " 26 5th St NW, Atlanta, GA 30332"
 
 
-inputs = [address,industry,preferences]
+
+
 
 def get_business_data(address, industry, GOOGLE_API_KEY, foursquare_api_key):
     gmaps = googlemaps.Client(key=GOOGLE_API_KEY)
@@ -179,13 +177,27 @@ def get_business_data(address, industry, GOOGLE_API_KEY, foursquare_api_key):
         "Population Density": population_density
     }
 
-def mainFunction(address,industry):
+def mainFunction(address,industry, Bruhpreferences):
     distance,foot_traffic,population_density = get_business_data(address, industry, os.getenv("GOOGLE_API_KEY"), os.getenv("FOURSQUARE_API_KEY")).values()  #You maybe need to add the API keys as real arguments
     Score1,Score2,Score3 = pointGeneratingFunction(foot_traffic,population_density,distance)
+    if Bruhpreferences == 0:
+        preferences = [0.45,0.3,0.25]
+    elif Bruhpreferences == 1:
+        preferences = [0.3,0.25,0.45]
+    elif Bruhpreferences == 2:
+        preferences = [0.45,0.25,0.3]
+    elif Bruhpreferences == 3:
+        preferences = [0.3,0.45,0.25]
+    elif Bruhpreferences == 4:
+        preferences = [0.25,0.45,0.3]
+    elif Bruhpreferences ==5:
+        preferences = [0.25,0.3,0.45]
+    else:
+        preferences = [0.33,0.33,0.33] #Bruh how would they even do this LMAO bruh
     indexScore = Score1*preferences[0] + Score2*preferences[1] + Score3*preferences[2]
     genai.configure(api_key=gemini_api_key) #Added API Key
     model = genai.GenerativeModel('gemini-pro') #the part starting here hopefully creates the description
-    prompt = f"I need you to generate a description of the location at {address} as a potential location to start a business. Other than your own information on the business at that address, I have created a scoring system that I want you to use in your description. Never say the exact scores but use the data they provide to give insidght into the location. The scores are based on the following: Estimated Foot Traffic, Population Density, and Nearest Competitor Distance. A score closer to 100 is good and one farther away is bad. This location has a score of {Score1} for estmated foot traffic, {Score2} for population density, and {Score3} for the distance to its nearest competitor. Please use this information to create a description of the location."
+    prompt = f"I need you to generate a description of the location at {address} as a potential location to start a business. Other than your own information on the business at that address, I have created a scoring system that I want you to use in your description. Never ever ever ever say the exact scores but use the data they provide to give insidght into the location. I will kill you if you do. Seriously don't. Please. The scores are based on the following: Estimated Foot Traffic, Population Density, and Nearest Competitor Distance. A score closer to 100 is good and one farther away is bad. This location has a score of {Score1} for estmated foot traffic, {Score2} for population density, and {Score3} for the distance to its nearest competitor. Please use this information to create a description of the location."
     try:
         response = model.generate_content(prompt)
         # Correctly extract the text from the response
@@ -196,6 +208,6 @@ def mainFunction(address,industry):
     except Exception as e:
         print(f"Error with Gemini API: {e}")
         description = "Description Unavailable"
-    return([{"description":description,"score":indexScore}])
+    return({"description":description,"score":indexScore[0]})
 
  

@@ -21,7 +21,9 @@ export async function signup(profileData: NewUserDTO):Promise<undefined | Respon
             body: JSON.stringify(profileData)
         });
         responseData = await response.json();
+        alert(responseData.message)
         if (responseData.message.includes("Success")){
+            alert("REACHED CREATE SESSION")
             await createSession(responseData.obj.userID);
             return responseData;
         }

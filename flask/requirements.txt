@@ -5,3 +5,6 @@ os
 dotenv
 google.generativeai
 openai
+pandas
+scikit-learn
+flask_cors

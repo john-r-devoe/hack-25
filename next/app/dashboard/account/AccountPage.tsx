@@ -7,7 +7,6 @@ import {
   DropResult,
 } from "@hello-pangea/dnd";
 import { GetUserDTO } from '@/lib/definitions';
-import { useRouter } from 'next/navigation';
 
 
 // Helper function to reorder the priorities list.
@@ -19,7 +18,6 @@ const reorder = (list: string[], startIndex: number, endIndex: number): string[]
 };
 
 export default function AccountPage({user} : {user:GetUserDTO}): JSX.Element {
-  const router = useRouter();
   const [changedUser, setChangedUser] = useState<GetUserDTO>(user)
 
   // When drag ends, update the order.

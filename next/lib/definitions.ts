@@ -60,3 +60,12 @@ export type EmailPassDTO =
     email: string,
     password: string
 }
+
+export enum Preference {
+    FPD = 0,
+    PDF = 1,
+    FDP = 2,
+    PFD = 3,
+    DFP = 4,
+    DPF = 5,
+}

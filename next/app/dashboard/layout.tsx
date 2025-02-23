@@ -8,7 +8,7 @@ interface DashboardLayoutProps {
 
 export default function DashboardLayout({ children }: DashboardLayoutProps): JSX.Element {
   return (
-    <div className="relative flex h-screen w-screen overflow-hidden">
+    <div className="relative flex w-screen overflow-hidden">
       <Sidebar />
       <main className="relative flex-1 bg-white">
         {children}

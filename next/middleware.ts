@@ -9,6 +9,9 @@ const protectedRoutes = ['/dashboard', '/dashboard/account', '/dashboard/map', '
 const publicRoutes = ['/login', '/signup', '/']
  
 export default async function middleware(req: NextRequest) {
+  if (req.nextUrl.pathname.startsWith('/api/')) {
+    return NextResponse.next()
+  }
   // 2. Check if the current route is protected or public
   const path = req.nextUrl.pathname
   const isProtectedRoute = protectedRoutes.includes(path)

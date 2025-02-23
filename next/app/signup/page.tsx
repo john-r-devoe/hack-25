@@ -14,7 +14,7 @@ export default function SignupPage() {
     email: "",
     password: "",
     confirmPassword: "",
-    industry: ""
+    industry: "clothing"
   });
 
   const [priorities, setPriorities] = useState([
@@ -46,6 +46,7 @@ export default function SignupPage() {
   };
 
   const  handleFinalSubmit = async () => {
+    console.log(formData)
     const result = await signup({
         firstName: formData.firstName,
         lastName: formData.lastName,
@@ -54,9 +55,9 @@ export default function SignupPage() {
         priorities: priorities,
         industry: formData.industry
     });
-    console.log(result);
+    alert(result?.obj);
     if(result?.message.includes("Success")) {
-      redirect("/dashboard");
+      redirect("/");
     } else if (result?.message.includes("already exists")) {
       alert("That email is already in use");
     }
