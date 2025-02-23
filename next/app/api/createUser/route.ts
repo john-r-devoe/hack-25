@@ -1,21 +1,20 @@
 import { NewUserDTO, User } from "@/lib/definitions";
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/mongodb";
-import { UUID } from "mongodb";
 import { randomUUID } from "crypto";
 
 export async function POST(req:NextRequest) {
-    console.log("POST HIT");
+    console.log("POST NEW USER HIT");
 
+    const client = await clientPromise.connect();
     try {
         const body = await req.json();
         const data = body as NewUserDTO;
         if (!data) {
             throw new Error("Data to POST cannot be undefined");
         }
-        const client = await clientPromise;
-        const db = client.db("BizzIn");
-        const users = db.collection("users");
+        const db = await client.db("BizzIn");
+        const users = await db.collection("users");
         
         const found = await users.findOne({email: data.email});
         if (found) {
@@ -36,8 +35,7 @@ export async function POST(req:NextRequest) {
         const result = await users.insertOne(newUser);
         if (result.acknowledged) {
             console.log("succesfully posted");
-            await client.close();
-            return new Response(JSON.stringify({message: "Success", addedObj: newUser}), {
+            return new Response(JSON.stringify({message: "Success", obj: newUser}), {
                 status: 200
             });
         } else {
@@ -46,6 +44,6 @@ export async function POST(req:NextRequest) {
         
     } catch (error) {
         console.error("Error parsing request body:", error);
-        return new Response(JSON.stringify({ error: "Could not POST" }), { status: 400 });
+        return new Response(JSON.stringify({ message: "Failure. Could not Post" }), { status: 400 });
     }
 }

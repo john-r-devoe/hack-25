@@ -2,32 +2,20 @@
 import { SignJWT, jwtVerify } from 'jose'
 import { SessionPayload } from '@/lib/definitions'
 import { cookies } from 'next/headers'
+import { sealData, unsealData } from 'iron-session'
  
 const secretKey = process.env.SESSION_SECRET
 const encodedKey = new TextEncoder().encode(secretKey)
  
 export async function encrypt(payload: SessionPayload) {
-  const encoder = new TextEncoder();
-  const key = await crypto.subtle.importKey(
-    'raw',
-    encoder.encode(secretKey),
-    { name: 'HMAC', hash: 'SHA-256' },
-    false,
-    ['sign']
-  );
-
-  const encodedPayload = encoder.encode(JSON.stringify(payload));
-  const signature = await crypto.subtle.sign('HMAC', key, encodedPayload);
-  return `${btoa(JSON.stringify(payload))}.${btoa(String.fromCharCode(...new Uint8Array(signature)))}`;
+  const encryptedSession = sealData(payload, {
+    password: encodedKey.toString(),
+  });
+  return encryptedSession;
 }
-
-export async function decrypt(session: string | undefined = '') {
-  try {
-    const [encodedPayload] = session.split('.');
-    return JSON.parse(atob(encodedPayload));
-  } catch (error) {
-    console.log('Failed to verify session');
-  }
+ 
+export async function decrypt(session: string | undefined = ''):Promise<any> {
+  return unsealData(session, {password: encodedKey.toString()});
 }
  
 export async function createSession(userID: string) {

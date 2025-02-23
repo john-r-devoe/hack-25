@@ -33,3 +33,15 @@ export type SessionPayload =
     userID: string,
     expiresAt: Date
 }
+
+export type ResponseData =
+{
+    message: string,
+    obj?: {}
+}
+
+export type EmailPassDTO =
+{
+    email: string,
+    password: string
+}

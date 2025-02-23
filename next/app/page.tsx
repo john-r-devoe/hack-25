@@ -1,24 +1,22 @@
 "use client"
-import { redirect } from 'next/navigation';
+import { redirect } from "next/navigation";
 import { useEffect, useState } from "react";
+import { login } from "./actions/authActions";
 
 export default function Home() {
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
-  const [testData, setTestData] = useState<object>([]);
-
-  useEffect(() => {
-    console.log(testData);
-  }, [testData]);
 
   const tryLogin = async function (email:string|undefined, password:string|undefined):Promise<void> {
     if (!email || !password) {
       alert("Please enter a non-empty value for email and password.");
+      return;
     }
-    const response = await fetch("/api/tryLogin");
-    if (response) {
-      const data = await response.json();
-      console.log(data);
+    const response = await login(email, password);
+    if (response?.message.includes("Success")) {
+      redirect("/dashboard");
+    } else {
+      alert("Invalid Credentials. Try Again!")
     }
   }
 

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 import { signup } from "../actions/authActions";
+import { redirect } from "next/navigation";
 
 export default function SignupPage() {
   const [step, setStep] = useState(1);
@@ -52,6 +53,12 @@ export default function SignupPage() {
         priorities: priorities
     });
     console.log(result);
+    if(result?.message.includes("Success")) {
+      redirect("/dashboard");
+    } else if (result?.message.includes("already exists")) {
+      alert("That email is already in use");
+    }
+
   };
 
   return (
