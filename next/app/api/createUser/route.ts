@@ -29,6 +29,7 @@ export async function POST(req:NextRequest) {
             email: data.email,
             hashedPass: data.password,
             priorities: data.priorities,
+            industry: data.industry,
             savedLocations: []
         }
 
