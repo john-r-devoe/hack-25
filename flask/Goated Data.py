@@ -11,6 +11,12 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 import openai
 
+load_dotenv()
+
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+foursquare_api_key = os.getenv("FOURSQUARE_API_KEY")
+gemini_api_key = os.getenv("GEMINI_API_KEY")
+
 # Load dataset
 
 businessData = pd.read_csv('hacklyticsData.csv')
@@ -18,7 +24,7 @@ businessData = pd.read_csv('hacklyticsData.csv')
 
 #ESTIMATED FOOT TRAFFIC SCORE CREATION SECTION
 
-    def pointGeneratingFunction(E,P,N):
+def pointGeneratingFunction(E,P,N):
     # Select Features (X) and Target (y)
     X = businessData[[' Estimated Foot Traffic']]  # Replace with relevant feature names
     y = businessData['EFT Scores']  # Replace with the actual target column
@@ -38,9 +44,8 @@ businessData = pd.read_csv('hacklyticsData.csv')
     #print(metrics.classification_report(y_test, y_pred))
 
     # SCORE CREATION STUFF
-    new_data = np.array([[5.7]])  # Use var to store generated Estimated Foot Traffic
-    predicted_score = model.predict(new_data)
-    print("Predicted Matching Score EFT:", predicted_score)
+    new_data = np.array([[E]])  # Use var to store generated Estimated Foot Traffic
+    predicted_scoreEFT = model.predict(new_data)
 
 
 
@@ -61,14 +66,10 @@ businessData = pd.read_csv('hacklyticsData.csv')
     # Predict on test set
     y_pred = model.predict(X_test)
 
-    # Evaluate performance
-    print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
-    print(metrics.classification_report(y_test, y_pred))
 
     # SCORE CREATION STUFF
-    new_data = np.array([[3750]])  # Use var to store generated Estimated Foot Traffic
-    predicted_score = model.predict(new_data)
-    print("Predicted Matching Score:", predicted_score)
+    new_data = np.array([[P]])  # Use var to store generated Estimated Foot Traffic
+    predicted_scorePD = model.predict(new_data)
 
     #NEAREST COMPETITOR DISTANCE SCORE CREATION SECTION
 
@@ -86,17 +87,101 @@ businessData = pd.read_csv('hacklyticsData.csv')
     # Predict on test set
     y_pred = model.predict(X_test)
 
-    # Evaluate performance
-    print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
-    print(metrics.classification_report(y_test, y_pred))
 
     # SCORE CREATION STUFF
-    new_data = np.array([[12]])  # Use var to store generated Estimated Foot Traffic
-    predicted_score = model.predict(new_data)
-    print("Predicted Matching Score:", predicted_score)
+    new_data = np.array([[N]])  # Use var to store generated Estimated Foot Traffic
+    predicted_scoreNCD = model.predict(new_data)
+    return([predicted_scoreEFT,predicted_scorePD,predicted_scoreNCD])
+
+industry = "Restaurant"
+preferences = [0.45,0.25,0.3]
+address = " 26 5th St NW, Atlanta, GA 30332"
+
 
 inputs = [address,industry,preferences]
 
+def get_business_data(address, industry, GOOGLE_API_KEY, foursquare_api_key):
+    gmaps = googlemaps.Client(key=GOOGLE_API_KEY)
+    
+    # Get coordinates of the address
+    geocode_result = gmaps.geocode(address)
+    if not geocode_result:
+        return "Invalid address."
+    
+    location = geocode_result[0]['geometry']['location']
+    lat, lng = location['lat'], location['lng']
+    
+    # Find nearest competitor using Google Places API
+    places_result = gmaps.places_nearby(
+        location=(lat, lng),
+        radius=5000,  # Search within 5km
+        type=industry
+    )
+    
+    if not places_result['results']:
+        return "No competitors found nearby."
+    
+    nearest_competitor = places_result['results'][0]
+    competitor_location = nearest_competitor['geometry']['location']
+    
+    # Calculate distance using Google Distance Matrix API
+    distance_result = gmaps.distance_matrix(
+        origins=f"{lat},{lng}",
+        destinations=f"{competitor_location['lat']},{competitor_location['lng']}",
+        mode="driving"
+    )
+    
+    distance = distance_result['rows'][0]['elements'][0]['distance']['text']
+    
+    # Get foot traffic data from Foursquare API
+    foursquare_url = f"https://api.foursquare.com/v3/places/search?ll={lat},{lng}&radius=500&categories=13000"
+    headers = {"Authorization": foursquare_api_key, "Accept": "application/json"}
+    foot_traffic_response = requests.get(foursquare_url, headers=headers)
+    
+    if foot_traffic_response.status_code == 200:
+        foot_traffic_data = foot_traffic_response.json()
+        foot_traffic = len(foot_traffic_data.get("results", []))
+    else:
+        foot_traffic = "Unavailable"
+    
 
+    genai.configure(api_key=gemini_api_key) #Added API Key
+    model = genai.GenerativeModel('gemini-pro')
 
+    prompt = f"What is the population density at the address: {address}. Return only the number, with no text. As in, do not write ANYTHING other than the number that is the population density."
 
+    try:
+        response = model.generate_content(prompt)
+        # Correctly extract the text from the response
+        try:
+            population_density = response.candidates[0].content.parts[0].text.strip()
+            # Remove commas before converting to float
+            population_density = population_density.replace(",", "")
+            population_density = float(population_density)
+        except (AttributeError, IndexError): #Catch if the response is malformed.
+            population_density = "Population Data Unavailable"
+
+        try:
+            population_density = float(population_density)
+        except ValueError:
+            population_density = "Population Data Unavailable"
+        except Exception as e:
+            print(f"Error converting to float: {e}")
+            population_density = "Population Data Unavailable"
+
+    except Exception as e:
+        print(f"Error with Gemini API: {e}")
+        population_density = "Population Data Unavailable"
+
+    return {
+        "Nearest Competitor Distance": float(distance[:-3]),
+        "Estimated Foot Traffic": foot_traffic,
+        "Population Density": population_density
+    }
+click = True
+
+if click:
+    distance,foot_traffic,population_density = get_business_data(address, industry, os.getenv("GOOGLE_API_KEY"), os.getenv("FOURSQUARE_API_KEY")).values()
+    Score1,Score2,Score3 = pointGeneratingFunction(foot_traffic,population_density,distance)
+    indexScore = Score1*preferences[0] + Score2*preferences[1] + Score3*preferences[2]
+ 
