@@ -10,7 +10,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps): JSX
   return (
     <div className="relative flex h-screen w-screen overflow-hidden">
       <Sidebar />
-      <main className="relative flex-1 bg-[#40798c]">
+      <main className="relative flex-1 bg-white">
         {children}
       </main>
     </div>

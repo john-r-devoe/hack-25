@@ -7,14 +7,28 @@ export type NewUserDTO =
         lastName: string,
         email: string,
         password: string,
-        priorities: Array<string>
+        priorities: Array<string>,
+        industry: string
     }
 | undefined
+
+export type GetUserDTO =
+{
+    userID: string
+    firstName: string,
+    lastName: string,
+    email: string,
+    priorities: Array<string>,
+    industry: string,
+    savedLocations: Array<UserLocation>
+}
 
 export type UserLocation = 
 {
     address: string,
-    index: number
+    index?: number,
+    latlng: Array<number>,
+    description: string
 }
 
 export type User =
@@ -25,6 +39,7 @@ export type User =
     email: string,
     hashedPass: string,
     priorities: Array<string>,
+    industry: string,
     savedLocations: Array<UserLocation>
 }
 

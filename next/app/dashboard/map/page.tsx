@@ -1,6 +1,6 @@
 "use client";
 import React, { JSX, useState } from 'react';
-import MyMapComponent from "./map";
+import MyMapComponent from "./map.js";
 
 export default function MapPage(): JSX.Element {
   const [center, setCenter] = useState({ lat: 40.7128, lng: -74.0060 });

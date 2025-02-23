@@ -1,13 +1,20 @@
-"use client";
+import React, { JSX } from 'react';
+import { verifySession } from '@/lib/dal';
+import { GetUserDTO } from '@/lib/definitions';
+import ScoresPage from './ScoresPage';
 
-import React, { JSX, useState } from 'react';
-
-export default function ScoresPage(): JSX.Element {
-  return (
-    <div className="flex h-full w-full bg-white text-gray-500">
-      <div className="m-auto">
-        <h1 className="text-2xl">No Scores Yet</h1>
-      </div>
-    </div>
-  );
-}
+export default async function Page(): Promise<JSX.Element> {
+    let user = undefined;
+    const authorized = await verifySession();
+    if (authorized.isAuth && !user) {
+      const response = await fetch(process.env.URL+"/api/getUser?id="+ authorized.userID)
+      let data = (await response.json())
+      console.log(data)
+      user = data.obj as GetUserDTO
+    }
+    if(user) {
+      return <ScoresPage user={user} />
+    } else {
+      return <div></div>
+    }
+  }

@@ -13,7 +13,8 @@ export default function SignupPage() {
     lastName: "",
     email: "",
     password: "",
-    confirmPassword: ""
+    confirmPassword: "",
+    industry: ""
   });
 
   const [priorities, setPriorities] = useState([
@@ -50,7 +51,8 @@ export default function SignupPage() {
         lastName: formData.lastName,
         email: formData.email,
         password: formData.password,
-        priorities: priorities
+        priorities: priorities,
+        industry: formData.industry
     });
     console.log(result);
     if(result?.message.includes("Success")) {
@@ -170,11 +172,41 @@ export default function SignupPage() {
               </Droppable>
             </DragDropContext>
             <button
-              onClick={handleFinalSubmit}
+              onClick={() => setStep(3)}
               className="w-full p-2 mt-4 rounded bg-[#9EC1A3] text-[#1F363D] font-bold hover:bg-[#CFE0C3] transition"
             >
-              Submit
+              Next
             </button>
+          </motion.div>
+        )}
+
+        {step == 3 && (
+          <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          >
+
+          <h2 className="text-2xl font-bold text-center text-[#CFE0C3] mb-6">Last Step!</h2>
+          <p className="text-center text-[#CFE0C3] mb-4">What Industry are you in?</p>
+          <form className="space-y-4">
+              <select value={formData.industry}
+              onChange={(e) => setFormData({...formData, industry: e.target.value})}
+              className="w-full p-2 rounded bg-[#70A9A1] text-[#1F363D] placeholder-[#9EC1A3] focus:outline-none focus:ring-2 focus:ring-[#9EC1A3]">
+                <option value="Clothing">Clothing</option>
+                <option value="Restaurant">Restaurant</option>
+                <option value="Financial Services">Financial Services</option>
+                <option value="Tech">Tech</option>
+                <option value="Merchandise">Merchandise</option>
+              </select>
+              <button
+                type="submit"
+                onClick={handleFinalSubmit}
+                className="w-full p-2 mt-4 rounded bg-[#9EC1A3] text-[#1F363D] font-bold hover:bg-[#CFE0C3] transition"
+              >
+                Done!
+              </button>
+            </form>
           </motion.div>
         )}
       </motion.div>
