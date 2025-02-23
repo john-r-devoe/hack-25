@@ -1,1 +1,7 @@
 Flask
+requests
+googlemaps
+os
+dotenv
+google.generativeai
+openai
