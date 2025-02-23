@@ -1,780 +1,780 @@
 
 ================================================================================
-Location Analysis - 2025-02-22 14:18:58
-Coordinates: 33.7767245106216, -84.38782520000001
-Images Directory: /Users/dhruvnarang/Desktop/hacklytics/pictures/location_20250222_141851_20250222_141857
+Location Analysis - 2025-02-22 20:46:36
+Coordinates: 40.73522016367622, -74.00066149999999
+Images Directory: /Users/dhruvnarang/Desktop/hacklytics/hack-25/flask/pictures/location_20250222_204625_20250222_204633
 
 RAW DATA:
 {
   "location": {
-    "lat": 33.7767245106216,
-    "lng": -84.38782520000001
+    "lat": 40.73522016367622,
+    "lng": -74.00066149999999
   },
   "metrics": {
     "total_businesses": 75,
-    "average_rating": 2.64,
-    "average_distance": 0.19,
-    "total_foot_traffic": 25278,
-    "success_index": 23.68,
-    "daily_walking_volume": 14634,
-    "peak_hours_traffic": 2926,
+    "average_rating": 2.84,
+    "average_distance": 0.08,
+    "total_foot_traffic": 7259,
+    "success_index": 23.65,
+    "daily_walking_volume": 10000,
+    "peak_hours_traffic": 2000,
     "visual_coverage": "10 panoramic views of top-rated businesses",
     "total_searched_types": 12,
     "total_unique_places_found": 75
   },
   "businesses": [
     {
-      "name": "Boho Taco",
+      "name": "4 Charles Prime Rib",
       "type": [],
       "rating": 4.7,
-      "reviews": 198,
-      "foot_traffic": 207,
+      "reviews": 917,
+      "foot_traffic": 124,
       "distance": 0.01,
-      "vicinity": "22 5th Street Northwest, Atlanta",
+      "vicinity": "4 Charles Street #3004, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Acuity Brands Plaza",
+      "name": "Jones Road Beauty",
       "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 81,
-      "distance": 0.03,
-      "vicinity": "Atlanta",
+      "rating": 4,
+      "reviews": 154,
+      "foot_traffic": 105,
+      "distance": 0.01,
+      "vicinity": "37 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Creative Destruction Lab - Atlanta",
+      "name": "Sparkle Beauty Studio",
       "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 295,
-      "distance": 0.03,
-      "vicinity": "800 West Peachtree Street Northwest Room 4135, Suite 422, Atlanta",
+      "rating": 4.5,
+      "reviews": 17,
+      "foot_traffic": 118,
+      "distance": 0.01,
+      "vicinity": "3 Charles Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Scheller College of Business",
-      "type": [],
-      "rating": 4.7,
-      "reviews": 50,
-      "foot_traffic": 507,
-      "distance": 0.03,
-      "vicinity": "800 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Ray's New York Pizza",
+      "name": "Wogies Bar & Grill , West Village",
       "type": [],
       "rating": 4.2,
-      "reviews": 813,
-      "foot_traffic": 282,
-      "distance": 0.04,
-      "vicinity": "26 5th Street Northwest, Atlanta",
+      "reviews": 525,
+      "foot_traffic": 109,
+      "distance": 0.02,
+      "vicinity": "39 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Center for Paper Business and Industry Studies",
+      "name": "Gabriela Valenzuela-Hirsch",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 123,
-      "distance": 0.04,
-      "vicinity": "800 West Peachtree Street Northwest, Atlanta",
+      "foot_traffic": 78,
+      "distance": 0.02,
+      "vicinity": "5 Charles Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Starbucks",
+      "name": "Terry's West Village Wines & Spirits",
       "type": [],
-      "rating": 3.6,
-      "reviews": 182,
-      "foot_traffic": 352,
-      "distance": 0.05,
-      "vicinity": "48 5th Street Northwest, Atlanta",
+      "rating": 4.6,
+      "reviews": 55,
+      "foot_traffic": 120,
+      "distance": 0.02,
+      "vicinity": "35 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Bella Fine Homes\u200b",
+      "name": "SH\u014cSH",
+      "type": [],
+      "rating": 4.9,
+      "reviews": 118,
+      "foot_traffic": 127,
+      "distance": 0.02,
+      "vicinity": "41 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Sugarcamp Productions",
+      "type": [],
+      "rating": 5,
+      "reviews": 1,
+      "foot_traffic": 130,
+      "distance": 0.02,
+      "vicinity": "35 1/2 Greenwich Avenue Apt#1, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "American Bar - New York",
+      "type": [],
+      "rating": 4.1,
+      "reviews": 245,
+      "foot_traffic": 106,
+      "distance": 0.03,
+      "vicinity": "33 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "David Clement, EA",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 77,
+      "distance": 0.03,
+      "vicinity": "7 Charles Street #3, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "New Amsterdam Realty",
+      "type": [],
+      "rating": 5,
+      "reviews": 1,
+      "foot_traffic": 129,
+      "distance": 0.03,
+      "vicinity": "12 Charles Street, New York",
+      "business_status": "CLOSED_TEMPORARILY"
+    },
+    {
+      "name": "Kula Exteriors",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 77,
+      "distance": 0.03,
+      "vicinity": "12 Charles Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Inspections And Maintenance \u2013 A&T Ventures",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 77,
+      "distance": 0.03,
+      "vicinity": "12 Charles Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Tudor Rose Antiques",
+      "type": [],
+      "rating": 4.2,
+      "reviews": 5,
+      "foot_traffic": 108,
+      "distance": 0.03,
+      "vicinity": "43 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Catherine Angiel",
+      "type": [],
+      "rating": 5,
+      "reviews": 29,
+      "foot_traffic": 129,
+      "distance": 0.03,
+      "vicinity": "43 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Citi Bike: Greenwich Ave & Charles St",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 77,
+      "distance": 0.03,
+      "vicinity": "New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Artisanal Cornucopia",
       "type": [],
       "rating": 5,
       "reviews": 5,
-      "foot_traffic": 549,
-      "distance": 0.06,
-      "vicinity": "2870 West Peachtree Street Northwest #803, Atlanta",
+      "foot_traffic": 128,
+      "distance": 0.04,
+      "vicinity": "45 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Barnes & Noble at Georgia Tech",
+      "name": "Prime Real Estate OL",
       "type": [],
-      "rating": 4.4,
-      "reviews": 1701,
-      "foot_traffic": 445,
-      "distance": 0.07,
-      "vicinity": "48 5th Street Northwest, Atlanta",
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 77,
+      "distance": 0.04,
+      "vicinity": "11 Charles Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "DTJ Design",
+      "name": "Body Roll Studio West Village",
       "type": [],
       "rating": 5,
-      "reviews": 2,
-      "foot_traffic": 681,
-      "distance": 0.07,
-      "vicinity": "817 West Peachtree Street Northwest Ste. 320, Atlanta",
+      "reviews": 18,
+      "foot_traffic": 128,
+      "distance": 0.04,
+      "vicinity": "47 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "NFANT Labs",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 532,
-      "distance": 0.07,
-      "vicinity": "817 West Peachtree Street Northwest Ste. 320, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Wilkes Shelby R MD",
-      "type": [],
-      "rating": 2.3,
-      "reviews": 3,
-      "foot_traffic": 374,
-      "distance": 0.07,
-      "vicinity": "830 West Peachtree Street Northwest #100, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "West Peachtree St at 5th St",
-      "type": [],
-      "rating": 4,
-      "reviews": 1,
-      "foot_traffic": 444,
-      "distance": 0.08,
-      "vicinity": "United States",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Switchyards Midtown",
-      "type": [],
-      "rating": 4.5,
-      "reviews": 12,
-      "foot_traffic": 197,
-      "distance": 0.08,
-      "vicinity": "817 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Pursuant Health",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 377,
-      "distance": 0.08,
-      "vicinity": "817 West Peachtree Street Northeast SUITE M-105, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "eQuoto",
-      "type": [],
-      "rating": 3.7,
-      "reviews": 15,
-      "foot_traffic": 369,
-      "distance": 0.08,
-      "vicinity": "817 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Nexza, Inc.",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 510,
-      "distance": 0.08,
-      "vicinity": "817 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "ChargePoint Charging Station",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 366,
-      "distance": 0.08,
-      "vicinity": "715 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Highlands",
-      "type": [],
-      "rating": 4,
-      "reviews": 2,
-      "foot_traffic": 172,
-      "distance": 0.09,
-      "vicinity": "817 West Peachtree Street Northwest #450, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Digital Scientists",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 363,
-      "distance": 0.09,
-      "vicinity": "817 West Peachtree Street Northwest #920, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Caleris Solutions, (Printing, Pack & Ship, Promotional Products)",
-      "type": [],
-      "rating": 3.2,
-      "reviews": 15,
-      "foot_traffic": 282,
-      "distance": 0.1,
-      "vicinity": "817 West Peachtree Street Northwest Suite A180 404, Inside Biltmore Offices Bldg, 9667 876 Suite A180, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Atwoods Pizza Cafe",
-      "type": [],
-      "rating": 4.5,
-      "reviews": 987,
-      "foot_traffic": 425,
-      "distance": 0.11,
-      "vicinity": "817 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Depasquale John M MD",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 182,
-      "distance": 0.12,
-      "vicinity": "845 Spring Street Northwest # B1, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "AT&T Store",
-      "type": [],
-      "rating": 4,
-      "reviews": 249,
-      "foot_traffic": 693,
-      "distance": 0.13,
-      "vicinity": "62 5th Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Tea Leaf and Creamery (GT)",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 477,
-      "distance": 0.14,
-      "vicinity": "75 5th Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Penguin Computing",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 468,
-      "distance": 0.14,
-      "vicinity": "75 5th Street Northwest STE 3130, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Aviva by Kameel Midtown",
+      "name": "Eyebrow Doctor West Village",
       "type": [],
       "rating": 4.8,
-      "reviews": 491,
-      "foot_traffic": 622,
-      "distance": 0.14,
-      "vicinity": "756 West Peachtree Street Northwest suite G, Atlanta",
+      "reviews": 45,
+      "foot_traffic": 123,
+      "distance": 0.04,
+      "vicinity": "47 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Tech Square Tavern",
+      "name": "Waverly Leather & Luggage",
       "type": [],
-      "rating": 4.5,
-      "reviews": 2,
-      "foot_traffic": 94,
-      "distance": 0.14,
-      "vicinity": "800 Spring Street Northwest, Atlanta",
+      "rating": 4.8,
+      "reviews": 83,
+      "foot_traffic": 122,
+      "distance": 0.05,
+      "vicinity": "33 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Asian Fusion",
+      "name": "Save Khaki United | Greenwich",
       "type": [],
-      "rating": 4.9,
-      "reviews": 260,
-      "foot_traffic": 627,
-      "distance": 0.14,
-      "vicinity": "75 5th Street Northwest #170, Atlanta",
+      "rating": 4.2,
+      "reviews": 13,
+      "foot_traffic": 107,
+      "distance": 0.05,
+      "vicinity": "44 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "PNC Bank",
+      "name": "Pertutti New York",
       "type": [],
-      "rating": 3.2,
-      "reviews": 47,
-      "foot_traffic": 462,
-      "distance": 0.14,
-      "vicinity": "75 5th Street Northwest A, Atlanta",
+      "rating": 4.6,
+      "reviews": 81,
+      "foot_traffic": 117,
+      "distance": 0.05,
+      "vicinity": "49 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "AL Auto",
+      "name": "Mottive Jewelry",
       "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 506,
-      "distance": 0.15,
-      "vicinity": "855 West Peachtree Street Northwest suite 1523, Atlanta",
+      "rating": 5,
+      "reviews": 183,
+      "foot_traffic": 127,
+      "distance": 0.05,
+      "vicinity": "33 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Waffle House",
+      "name": "Sushi Lin West Village",
       "type": [],
-      "rating": 3.9,
-      "reviews": 1475,
-      "foot_traffic": 323,
-      "distance": 0.15,
-      "vicinity": "66 5th Street Northwest, Atlanta",
+      "rating": 4.8,
+      "reviews": 84,
+      "foot_traffic": 122,
+      "distance": 0.05,
+      "vicinity": "33 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Dr. Dominic C. Cruz, MD",
-      "type": [],
-      "rating": 4,
-      "reviews": 1,
-      "foot_traffic": 93,
-      "distance": 0.15,
-      "vicinity": "855 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Buffalo Wild Wings 'GO'",
-      "type": [],
-      "rating": 2.9,
-      "reviews": 182,
-      "foot_traffic": 371,
-      "distance": 0.16,
-      "vicinity": "68 5th Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "El Burro Pollo",
-      "type": [],
-      "rating": 4.3,
-      "reviews": 102,
-      "foot_traffic": 504,
-      "distance": 0.16,
-      "vicinity": "756 West Peachtree Street Northwest #225, Atlanta",
-      "business_status": "CLOSED_TEMPORARILY"
-    },
-    {
-      "name": "Rowdy Tiger Whiskey Bar & Kitchen",
-      "type": [],
-      "rating": 3.9,
-      "reviews": 338,
-      "foot_traffic": 471,
-      "distance": 0.16,
-      "vicinity": "866 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "topitofffun",
+      "name": "Michael C. Brook, PHD",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 248,
-      "distance": 0.16,
-      "vicinity": "756 West Peachtree Street Northwest, Atlanta",
+      "foot_traffic": 76,
+      "distance": 0.05,
+      "vicinity": "33 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "SmoQ'n Hot Grill",
+      "name": "Ferran Ernesto MD",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 76,
+      "distance": 0.05,
+      "vicinity": "15 Charles Street # 6H, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Mills Bernard S MD",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 76,
+      "distance": 0.05,
+      "vicinity": "15 Charles Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Roberts Enrique A B MD",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 76,
+      "distance": 0.05,
+      "vicinity": "15 Charles Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Blaustein Paint & Hardware",
+      "type": [],
+      "rating": 3.5,
+      "reviews": 46,
+      "foot_traffic": 88,
+      "distance": 0.06,
+      "vicinity": "51 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Joyner Carpet",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 75,
+      "distance": 0.06,
+      "vicinity": "22 Charles Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Mah-Ze-Dahr Bakery",
+      "type": [],
+      "rating": 4.6,
+      "reviews": 870,
+      "foot_traffic": 115,
+      "distance": 0.06,
+      "vicinity": "28 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Nadas - Rainbow Gluten Free Empanadas",
       "type": [],
       "rating": 4.7,
-      "reviews": 143,
-      "foot_traffic": 230,
-      "distance": 0.16,
-      "vicinity": "756 West Peachtree Street Northwest, Atlanta",
-      "business_status": "CLOSED_TEMPORARILY"
-    },
-    {
-      "name": "Humble Mumble",
-      "type": [],
-      "rating": 4.4,
-      "reviews": 45,
-      "foot_traffic": 278,
-      "distance": 0.16,
-      "vicinity": "756 West Peachtree Street Northwest, Atlanta",
+      "reviews": 220,
+      "foot_traffic": 118,
+      "distance": 0.06,
+      "vicinity": "48 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Costa Coffee - Atlanta Midtown",
+      "name": "Greenwich Village Farm",
       "type": [],
-      "rating": 4.2,
-      "reviews": 37,
-      "foot_traffic": 156,
-      "distance": 0.17,
-      "vicinity": "CODA Building, 756 West Peachtree Street Northwest, Atlanta",
+      "rating": 4.6,
+      "reviews": 24,
+      "foot_traffic": 115,
+      "distance": 0.06,
+      "vicinity": "33 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Tiff's Treats Cookie Delivery",
-      "type": [],
-      "rating": 4.4,
-      "reviews": 208,
-      "foot_traffic": 198,
-      "distance": 0.17,
-      "vicinity": "Square on Fifth, 848 Spring Street Northwest Ste B, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Daydreamer Coffee",
-      "type": [],
-      "rating": 4.2,
-      "reviews": 96,
-      "foot_traffic": 264,
-      "distance": 0.17,
-      "vicinity": "859 Spring Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Bro-Ritos",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 251,
-      "distance": 0.17,
-      "vicinity": "756 West Peachtree Street Northwest Ste. D, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Cypress Street Pint & Plate",
-      "type": [],
-      "rating": 4.5,
-      "reviews": 3421,
-      "foot_traffic": 592,
-      "distance": 0.17,
-      "vicinity": "817 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Poke Burri",
+      "name": "Holey Cream",
       "type": [],
       "rating": 4.1,
-      "reviews": 209,
-      "foot_traffic": 649,
-      "distance": 0.17,
-      "vicinity": "756 West Peachtree Street Northwest Suite H, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "KSV JEWERY",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 384,
-      "distance": 0.2,
-      "vicinity": "848 Spring Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Apotheos Coffee Midtown",
-      "type": [],
-      "rating": 4.8,
-      "reviews": 95,
-      "foot_traffic": 691,
-      "distance": 0.2,
-      "vicinity": "740 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Moge tee & Korean Style Chicken",
-      "type": [],
-      "rating": 4.4,
-      "reviews": 30,
-      "foot_traffic": 373,
-      "distance": 0.2,
-      "vicinity": "848 Spring Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Moe's Southwest Grill",
-      "type": [],
-      "rating": 4,
-      "reviews": 723,
-      "foot_traffic": 488,
-      "distance": 0.2,
-      "vicinity": "85 5th Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Zoe Tacos",
-      "type": [],
-      "rating": 4.8,
-      "reviews": 6,
-      "foot_traffic": 450,
-      "distance": 0.2,
-      "vicinity": "75 5th Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Cargoatlanta",
-      "type": [],
-      "rating": 4.7,
-      "reviews": 14,
-      "foot_traffic": 331,
-      "distance": 0.21,
-      "vicinity": "800 Peachtree Street Northeast, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Starbucks",
-      "type": [],
-      "rating": 4,
-      "reviews": 379,
-      "foot_traffic": 368,
-      "distance": 0.22,
-      "vicinity": "708 Spring Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Cricket Wireless Authorized Retailer",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 314,
-      "distance": 0.28,
-      "vicinity": "754 Peachtree Street Northeast, Atlanta",
+      "reviews": 41,
+      "foot_traffic": 102,
+      "distance": 0.06,
+      "vicinity": "50 Greenwich Avenue, New York",
       "business_status": "CLOSED_TEMPORARILY"
     },
     {
-      "name": "Einstein Bros. Bagels",
+      "name": "Bell Book & Candle",
       "type": [],
-      "rating": 3.9,
-      "reviews": 561,
-      "foot_traffic": 576,
-      "distance": 0.28,
-      "vicinity": "800 Peachtree Street Northeast, Atlanta",
+      "rating": 4.3,
+      "reviews": 332,
+      "foot_traffic": 108,
+      "distance": 0.06,
+      "vicinity": "141 West 10th Street # A, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "European Wax Center",
+      "name": "Gottino Enoteca e Salumeria",
       "type": [],
-      "rating": 4.9,
-      "reviews": 145,
-      "foot_traffic": 107,
-      "distance": 0.28,
-      "vicinity": "800 Peachtree Street Northeast D, Atlanta",
+      "rating": 4.5,
+      "reviews": 248,
+      "foot_traffic": 112,
+      "distance": 0.06,
+      "vicinity": "52 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "BenchMark Physical Therapy",
-      "type": [],
-      "rating": 4.6,
-      "reviews": 42,
-      "foot_traffic": 161,
-      "distance": 0.28,
-      "vicinity": "800 Peachtree Street Northeast E2, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Big Peach Ride + Run - Midtown",
-      "type": [],
-      "rating": 4.7,
-      "reviews": 281,
-      "foot_traffic": 317,
-      "distance": 0.29,
-      "vicinity": "800 Peachtree Street Northeast suite b&c, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Great American Bacon Race Packet Pick up",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 105,
-      "distance": 0.29,
-      "vicinity": "800E Peachtree Street Northeast, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Indigo Spring: Atlanta\u2019s Premium Alkaline Spring Water Delivery Service",
+      "name": "Gnocchi on 9th",
       "type": [],
       "rating": 4.8,
-      "reviews": 49,
-      "foot_traffic": 180,
-      "distance": 0.3,
-      "vicinity": "730 Peachtree Street Northeast, Atlanta",
+      "reviews": 10,
+      "foot_traffic": 120,
+      "distance": 0.06,
+      "vicinity": "50 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Jackson Edgar N MD",
+      "name": "Umami Sushi",
+      "type": [],
+      "rating": 4.5,
+      "reviews": 501,
+      "foot_traffic": 112,
+      "distance": 0.06,
+      "vicinity": "50 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Le Baratin",
+      "type": [],
+      "rating": 4.5,
+      "reviews": 528,
+      "foot_traffic": 112,
+      "distance": 0.06,
+      "vicinity": "26 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Eric W. Sherman, LCSW",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 336,
-      "distance": 0.31,
-      "vicinity": "21 8th Street Northeast, Atlanta",
+      "foot_traffic": 75,
+      "distance": 0.06,
+      "vicinity": "30 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Dr. Michael C. Mclarnon, MD",
+      "name": "Bluestone Lane Collective Caf",
+      "type": [],
+      "rating": 4.5,
+      "reviews": 889,
+      "foot_traffic": 112,
+      "distance": 0.07,
+      "vicinity": "55 Greenwich Avenue, New York",
+      "business_status": "CLOSED_TEMPORARILY"
+    },
+    {
+      "name": "Morandi",
+      "type": [],
+      "rating": 4.3,
+      "reviews": 1442,
+      "foot_traffic": 107,
+      "distance": 0.07,
+      "vicinity": "211 Waverly Place, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Casa Piada",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 146,
-      "distance": 0.34,
-      "vicinity": "849 Peachtree Street Northeast, Atlanta",
-      "business_status": "OPERATIONAL"
+      "foot_traffic": 74,
+      "distance": 0.07,
+      "vicinity": "55 Greenwich Avenue, New York",
+      "business_status": "CLOSED_TEMPORARILY"
     },
     {
-      "name": "S2 Telehealth Technologies",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 125,
-      "distance": 0.35,
-      "vicinity": "915 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Benjamin Fernando, MD",
-      "type": [],
-      "rating": 2,
-      "reviews": 3,
-      "foot_traffic": 193,
-      "distance": 0.35,
-      "vicinity": "805 Peachtree Street Northeast Suite A, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "AllCare Primary & Immediate Care",
+      "name": "Marian\u2019s",
       "type": [],
       "rating": 4.6,
-      "reviews": 1033,
-      "foot_traffic": 420,
-      "distance": 0.35,
-      "vicinity": "805 Peachtree Street Northeast Suite A, Atlanta",
+      "reviews": 192,
+      "foot_traffic": 114,
+      "distance": 0.07,
+      "vicinity": "24 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Strayhorn Gregory MD",
+      "name": "Greenwhich Caf\u00e9",
+      "type": [],
+      "rating": 5,
+      "reviews": 19,
+      "foot_traffic": 123,
+      "distance": 0.08,
+      "vicinity": "58 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Fiddlesticks Pub",
+      "type": [],
+      "rating": 4,
+      "reviews": 784,
+      "foot_traffic": 99,
+      "distance": 0.08,
+      "vicinity": "56 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Perle",
+      "type": [],
+      "rating": 4.9,
+      "reviews": 23,
+      "foot_traffic": 121,
+      "distance": 0.08,
+      "vicinity": "22 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "The Perry Club by Pasta By Hudson",
+      "type": [],
+      "rating": 4.3,
+      "reviews": 188,
+      "foot_traffic": 106,
+      "distance": 0.08,
+      "vicinity": "157 7th Ave S Bet. Perry St. &, Waverly Place, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "NY FRESH PIZZA",
+      "type": [],
+      "rating": 4.4,
+      "reviews": 116,
+      "foot_traffic": 108,
+      "distance": 0.08,
+      "vicinity": "167 7th Avenue South, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Rosemary's",
+      "type": [],
+      "rating": 4.3,
+      "reviews": 2425,
+      "foot_traffic": 105,
+      "distance": 0.08,
+      "vicinity": "18 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Jack\u2019s Stir Brew Coffee",
+      "type": [],
+      "rating": 4,
+      "reviews": 283,
+      "foot_traffic": 98,
+      "distance": 0.09,
+      "vicinity": "138 West 10th Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Art to Ware",
+      "type": [],
+      "rating": 5,
+      "reviews": 10,
+      "foot_traffic": 122,
+      "distance": 0.09,
+      "vicinity": "21 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "HYER GOODS",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 105,
-      "distance": 0.36,
-      "vicinity": "805 Peachtree Street Northeast, Atlanta",
+      "foot_traffic": 73,
+      "distance": 0.09,
+      "vicinity": "21 Greenwich Avenue, New York",
+      "business_status": "CLOSED_TEMPORARILY"
+    },
+    {
+      "name": "Dr. Jonathann Kuo, MD",
+      "type": [],
+      "rating": 4.8,
+      "reviews": 101,
+      "foot_traffic": 114,
+      "distance": 0.12,
+      "vicinity": "160 7th Avenue South, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Mindwaves Mental Health",
+      "name": "Dr. Thomas Pitts",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 71,
+      "distance": 0.12,
+      "vicinity": "160 7th Avenue South Unit B, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Dr. Maritza Gattereau-Edwards, MD",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 71,
+      "distance": 0.12,
+      "vicinity": "160 7th Avenue South, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Dhara Shah, DPM - Curalta Foot + Ankle",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 71,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Jacqueline Prevete",
       "type": [],
       "rating": null,
       "reviews": null,
       "foot_traffic": 70,
-      "distance": 0.38,
-      "vicinity": "855 Peachtree Street Northeast UNIT 3401, Atlanta",
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Dr. Olakunle Ajibola",
+      "name": "Dr. Jeremy Britto",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 353,
-      "distance": 0.39,
-      "vicinity": "688 Spring Street Northwest, Atlanta",
+      "foot_traffic": 70,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Brownlee Shaun L MD",
+      "name": "Dr. Pooja Shah",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 336,
-      "distance": 0.39,
-      "vicinity": "688 Spring Street Northwest, Atlanta",
+      "foot_traffic": 70,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Wainstein Jeffrey T MD",
+      "name": "Michael Mazer",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 70,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Dr. Anuj Gogna",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 70,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Dr. Joseph Alencherry, DPM, FACFAS, FACPM",
       "type": [],
       "rating": 5,
-      "reviews": 1,
-      "foot_traffic": 171,
-      "distance": 0.39,
-      "vicinity": "688 Spring Street Northwest, Atlanta",
+      "reviews": 2,
+      "foot_traffic": 118,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Physio - Atlanta - Midtown",
+      "name": "Foot and Ankle Surgeons of New York - An Affiliate of Curalta Foot + Ankle",
       "type": [],
-      "rating": 4.8,
-      "reviews": 125,
-      "foot_traffic": 160,
-      "distance": 0.39,
-      "vicinity": "855 Peachtree Street Northeast Suite 1B, Atlanta",
+      "rating": 4.7,
+      "reviews": 89,
+      "foot_traffic": 111,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Payton Sheila MD",
+      "name": "Dr. Fred De Lucia, DPM, FACFAS, FACFAOM",
+      "type": [],
+      "rating": 4.5,
+      "reviews": 2,
+      "foot_traffic": 106,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Carnes Raymond E MD",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 258,
-      "distance": 0.43,
-      "vicinity": "Atlanta",
+      "foot_traffic": 70,
+      "distance": 0.13,
+      "vicinity": "1 Christopher Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Dr. Malaika E. Berkeley",
+      "name": "Dr. Christopher S. Hinson, MD",
       "type": [],
-      "rating": 3.1,
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 70,
+      "distance": 0.14,
+      "vicinity": "153 West 11th Street, New York",
+      "business_status": "CLOSED_TEMPORARILY"
+    },
+    {
+      "name": "Feldman Jayme Raddi",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 70,
+      "distance": 0.14,
+      "vicinity": "153 West 11th Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Citi",
+      "type": [],
+      "rating": 2.8,
+      "reviews": 30,
+      "foot_traffic": 61,
+      "distance": 0.21,
+      "vicinity": "395 6th Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Bank of America",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 63,
+      "distance": 0.25,
+      "vicinity": "224 West 4th Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Bank of America Financial Center",
+      "type": [],
+      "rating": 2.5,
+      "reviews": 26,
+      "foot_traffic": 53,
+      "distance": 0.25,
+      "vicinity": "224 West 4th Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Bank of America Video Banking",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 63,
+      "distance": 0.26,
+      "vicinity": "375 6th Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Chase Bank",
+      "type": [],
+      "rating": 3.8,
       "reviews": 11,
-      "foot_traffic": 417,
-      "distance": 0.43,
-      "vicinity": "814 Juniper Street Northeast, Atlanta",
+      "foot_traffic": 79,
+      "distance": 0.28,
+      "vicinity": "204 West 4th Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "le Denteorgia Dental Implant Center",
+      "name": "Wells Fargo Bank",
       "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 238,
-      "distance": 0.44,
-      "vicinity": "900 Peachtree Street Northeast, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Famil",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 69,
-      "distance": 0.45,
-      "vicinity": "675 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Dr. Mossud M. Smith, DDS",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 344,
-      "distance": 0.48,
-      "vicinity": "763 Juniper Street Northeast, Atlanta",
+      "rating": 2.8,
+      "reviews": 14,
+      "foot_traffic": 58,
+      "distance": 0.28,
+      "vicinity": "374 6th Avenue, New York",
       "business_status": "OPERATIONAL"
     }
   ],
-  "image_directory": "/Users/dhruvnarang/Desktop/hacklytics/pictures/location_20250222_141851_20250222_141857"
+  "image_directory": "/Users/dhruvnarang/Desktop/hacklytics/hack-25/flask/pictures/location_20250222_204625_20250222_204633"
 }
 
 ANALYSIS:
@@ -782,829 +782,818 @@ Analysis pending...
 ================================================================================
 
 ================================================================================
-Location Analysis - 2025-02-22 14:19:24
-Coordinates: 33.7767245106216, -84.38782520000001
-Images Directory: /Users/dhruvnarang/Desktop/hacklytics/pictures/location_20250222_141851_20250222_141857
+Location Analysis - 2025-02-22 20:46:51
+Coordinates: 40.73522016367622, -74.00066149999999
+Images Directory: /Users/dhruvnarang/Desktop/hacklytics/hack-25/flask/pictures/location_20250222_204625_20250222_204633
 
 RAW DATA:
 {
   "location": {
-    "lat": 33.7767245106216,
-    "lng": -84.38782520000001
+    "lat": 40.73522016367622,
+    "lng": -74.00066149999999
   },
   "metrics": {
     "total_businesses": 75,
-    "average_rating": 2.64,
-    "average_distance": 0.19,
-    "total_foot_traffic": 25278,
-    "success_index": 23.68,
-    "daily_walking_volume": 14634,
-    "peak_hours_traffic": 2926,
+    "average_rating": 2.84,
+    "average_distance": 0.08,
+    "total_foot_traffic": 7259,
+    "success_index": 23.65,
+    "daily_walking_volume": 10000,
+    "peak_hours_traffic": 2000,
     "visual_coverage": "10 panoramic views of top-rated businesses",
     "total_searched_types": 12,
     "total_unique_places_found": 75
   },
   "businesses": [
     {
-      "name": "Boho Taco",
+      "name": "4 Charles Prime Rib",
       "type": [],
       "rating": 4.7,
-      "reviews": 198,
-      "foot_traffic": 207,
+      "reviews": 917,
+      "foot_traffic": 124,
       "distance": 0.01,
-      "vicinity": "22 5th Street Northwest, Atlanta",
+      "vicinity": "4 Charles Street #3004, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Acuity Brands Plaza",
+      "name": "Jones Road Beauty",
       "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 81,
-      "distance": 0.03,
-      "vicinity": "Atlanta",
+      "rating": 4,
+      "reviews": 154,
+      "foot_traffic": 105,
+      "distance": 0.01,
+      "vicinity": "37 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Creative Destruction Lab - Atlanta",
+      "name": "Sparkle Beauty Studio",
       "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 295,
-      "distance": 0.03,
-      "vicinity": "800 West Peachtree Street Northwest Room 4135, Suite 422, Atlanta",
+      "rating": 4.5,
+      "reviews": 17,
+      "foot_traffic": 118,
+      "distance": 0.01,
+      "vicinity": "3 Charles Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Scheller College of Business",
-      "type": [],
-      "rating": 4.7,
-      "reviews": 50,
-      "foot_traffic": 507,
-      "distance": 0.03,
-      "vicinity": "800 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Ray's New York Pizza",
+      "name": "Wogies Bar & Grill , West Village",
       "type": [],
       "rating": 4.2,
-      "reviews": 813,
-      "foot_traffic": 282,
-      "distance": 0.04,
-      "vicinity": "26 5th Street Northwest, Atlanta",
+      "reviews": 525,
+      "foot_traffic": 109,
+      "distance": 0.02,
+      "vicinity": "39 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Center for Paper Business and Industry Studies",
+      "name": "Gabriela Valenzuela-Hirsch",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 123,
-      "distance": 0.04,
-      "vicinity": "800 West Peachtree Street Northwest, Atlanta",
+      "foot_traffic": 78,
+      "distance": 0.02,
+      "vicinity": "5 Charles Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Starbucks",
+      "name": "Terry's West Village Wines & Spirits",
       "type": [],
-      "rating": 3.6,
-      "reviews": 182,
-      "foot_traffic": 352,
-      "distance": 0.05,
-      "vicinity": "48 5th Street Northwest, Atlanta",
+      "rating": 4.6,
+      "reviews": 55,
+      "foot_traffic": 120,
+      "distance": 0.02,
+      "vicinity": "35 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Bella Fine Homes\u200b",
+      "name": "SH\u014cSH",
+      "type": [],
+      "rating": 4.9,
+      "reviews": 118,
+      "foot_traffic": 127,
+      "distance": 0.02,
+      "vicinity": "41 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Sugarcamp Productions",
+      "type": [],
+      "rating": 5,
+      "reviews": 1,
+      "foot_traffic": 130,
+      "distance": 0.02,
+      "vicinity": "35 1/2 Greenwich Avenue Apt#1, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "American Bar - New York",
+      "type": [],
+      "rating": 4.1,
+      "reviews": 245,
+      "foot_traffic": 106,
+      "distance": 0.03,
+      "vicinity": "33 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "David Clement, EA",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 77,
+      "distance": 0.03,
+      "vicinity": "7 Charles Street #3, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "New Amsterdam Realty",
+      "type": [],
+      "rating": 5,
+      "reviews": 1,
+      "foot_traffic": 129,
+      "distance": 0.03,
+      "vicinity": "12 Charles Street, New York",
+      "business_status": "CLOSED_TEMPORARILY"
+    },
+    {
+      "name": "Kula Exteriors",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 77,
+      "distance": 0.03,
+      "vicinity": "12 Charles Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Inspections And Maintenance \u2013 A&T Ventures",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 77,
+      "distance": 0.03,
+      "vicinity": "12 Charles Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Tudor Rose Antiques",
+      "type": [],
+      "rating": 4.2,
+      "reviews": 5,
+      "foot_traffic": 108,
+      "distance": 0.03,
+      "vicinity": "43 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Catherine Angiel",
+      "type": [],
+      "rating": 5,
+      "reviews": 29,
+      "foot_traffic": 129,
+      "distance": 0.03,
+      "vicinity": "43 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Citi Bike: Greenwich Ave & Charles St",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 77,
+      "distance": 0.03,
+      "vicinity": "New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Artisanal Cornucopia",
       "type": [],
       "rating": 5,
       "reviews": 5,
-      "foot_traffic": 549,
-      "distance": 0.06,
-      "vicinity": "2870 West Peachtree Street Northwest #803, Atlanta",
+      "foot_traffic": 128,
+      "distance": 0.04,
+      "vicinity": "45 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Barnes & Noble at Georgia Tech",
+      "name": "Prime Real Estate OL",
       "type": [],
-      "rating": 4.4,
-      "reviews": 1701,
-      "foot_traffic": 445,
-      "distance": 0.07,
-      "vicinity": "48 5th Street Northwest, Atlanta",
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 77,
+      "distance": 0.04,
+      "vicinity": "11 Charles Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "DTJ Design",
+      "name": "Body Roll Studio West Village",
       "type": [],
       "rating": 5,
-      "reviews": 2,
-      "foot_traffic": 681,
-      "distance": 0.07,
-      "vicinity": "817 West Peachtree Street Northwest Ste. 320, Atlanta",
+      "reviews": 18,
+      "foot_traffic": 128,
+      "distance": 0.04,
+      "vicinity": "47 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "NFANT Labs",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 532,
-      "distance": 0.07,
-      "vicinity": "817 West Peachtree Street Northwest Ste. 320, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Wilkes Shelby R MD",
-      "type": [],
-      "rating": 2.3,
-      "reviews": 3,
-      "foot_traffic": 374,
-      "distance": 0.07,
-      "vicinity": "830 West Peachtree Street Northwest #100, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "West Peachtree St at 5th St",
-      "type": [],
-      "rating": 4,
-      "reviews": 1,
-      "foot_traffic": 444,
-      "distance": 0.08,
-      "vicinity": "United States",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Switchyards Midtown",
-      "type": [],
-      "rating": 4.5,
-      "reviews": 12,
-      "foot_traffic": 197,
-      "distance": 0.08,
-      "vicinity": "817 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Pursuant Health",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 377,
-      "distance": 0.08,
-      "vicinity": "817 West Peachtree Street Northeast SUITE M-105, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "eQuoto",
-      "type": [],
-      "rating": 3.7,
-      "reviews": 15,
-      "foot_traffic": 369,
-      "distance": 0.08,
-      "vicinity": "817 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Nexza, Inc.",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 510,
-      "distance": 0.08,
-      "vicinity": "817 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "ChargePoint Charging Station",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 366,
-      "distance": 0.08,
-      "vicinity": "715 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Highlands",
-      "type": [],
-      "rating": 4,
-      "reviews": 2,
-      "foot_traffic": 172,
-      "distance": 0.09,
-      "vicinity": "817 West Peachtree Street Northwest #450, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Digital Scientists",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 363,
-      "distance": 0.09,
-      "vicinity": "817 West Peachtree Street Northwest #920, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Caleris Solutions, (Printing, Pack & Ship, Promotional Products)",
-      "type": [],
-      "rating": 3.2,
-      "reviews": 15,
-      "foot_traffic": 282,
-      "distance": 0.1,
-      "vicinity": "817 West Peachtree Street Northwest Suite A180 404, Inside Biltmore Offices Bldg, 9667 876 Suite A180, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Atwoods Pizza Cafe",
-      "type": [],
-      "rating": 4.5,
-      "reviews": 987,
-      "foot_traffic": 425,
-      "distance": 0.11,
-      "vicinity": "817 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Depasquale John M MD",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 182,
-      "distance": 0.12,
-      "vicinity": "845 Spring Street Northwest # B1, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "AT&T Store",
-      "type": [],
-      "rating": 4,
-      "reviews": 249,
-      "foot_traffic": 693,
-      "distance": 0.13,
-      "vicinity": "62 5th Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Tea Leaf and Creamery (GT)",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 477,
-      "distance": 0.14,
-      "vicinity": "75 5th Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Penguin Computing",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 468,
-      "distance": 0.14,
-      "vicinity": "75 5th Street Northwest STE 3130, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Aviva by Kameel Midtown",
+      "name": "Eyebrow Doctor West Village",
       "type": [],
       "rating": 4.8,
-      "reviews": 491,
-      "foot_traffic": 622,
-      "distance": 0.14,
-      "vicinity": "756 West Peachtree Street Northwest suite G, Atlanta",
+      "reviews": 45,
+      "foot_traffic": 123,
+      "distance": 0.04,
+      "vicinity": "47 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Tech Square Tavern",
+      "name": "Waverly Leather & Luggage",
       "type": [],
-      "rating": 4.5,
-      "reviews": 2,
-      "foot_traffic": 94,
-      "distance": 0.14,
-      "vicinity": "800 Spring Street Northwest, Atlanta",
+      "rating": 4.8,
+      "reviews": 83,
+      "foot_traffic": 122,
+      "distance": 0.05,
+      "vicinity": "33 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Asian Fusion",
+      "name": "Save Khaki United | Greenwich",
       "type": [],
-      "rating": 4.9,
-      "reviews": 260,
-      "foot_traffic": 627,
-      "distance": 0.14,
-      "vicinity": "75 5th Street Northwest #170, Atlanta",
+      "rating": 4.2,
+      "reviews": 13,
+      "foot_traffic": 107,
+      "distance": 0.05,
+      "vicinity": "44 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "PNC Bank",
+      "name": "Pertutti New York",
       "type": [],
-      "rating": 3.2,
-      "reviews": 47,
-      "foot_traffic": 462,
-      "distance": 0.14,
-      "vicinity": "75 5th Street Northwest A, Atlanta",
+      "rating": 4.6,
+      "reviews": 81,
+      "foot_traffic": 117,
+      "distance": 0.05,
+      "vicinity": "49 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "AL Auto",
+      "name": "Mottive Jewelry",
       "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 506,
-      "distance": 0.15,
-      "vicinity": "855 West Peachtree Street Northwest suite 1523, Atlanta",
+      "rating": 5,
+      "reviews": 183,
+      "foot_traffic": 127,
+      "distance": 0.05,
+      "vicinity": "33 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Waffle House",
+      "name": "Sushi Lin West Village",
       "type": [],
-      "rating": 3.9,
-      "reviews": 1475,
-      "foot_traffic": 323,
-      "distance": 0.15,
-      "vicinity": "66 5th Street Northwest, Atlanta",
+      "rating": 4.8,
+      "reviews": 84,
+      "foot_traffic": 122,
+      "distance": 0.05,
+      "vicinity": "33 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Dr. Dominic C. Cruz, MD",
-      "type": [],
-      "rating": 4,
-      "reviews": 1,
-      "foot_traffic": 93,
-      "distance": 0.15,
-      "vicinity": "855 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Buffalo Wild Wings 'GO'",
-      "type": [],
-      "rating": 2.9,
-      "reviews": 182,
-      "foot_traffic": 371,
-      "distance": 0.16,
-      "vicinity": "68 5th Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "El Burro Pollo",
-      "type": [],
-      "rating": 4.3,
-      "reviews": 102,
-      "foot_traffic": 504,
-      "distance": 0.16,
-      "vicinity": "756 West Peachtree Street Northwest #225, Atlanta",
-      "business_status": "CLOSED_TEMPORARILY"
-    },
-    {
-      "name": "Rowdy Tiger Whiskey Bar & Kitchen",
-      "type": [],
-      "rating": 3.9,
-      "reviews": 338,
-      "foot_traffic": 471,
-      "distance": 0.16,
-      "vicinity": "866 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "topitofffun",
+      "name": "Michael C. Brook, PHD",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 248,
-      "distance": 0.16,
-      "vicinity": "756 West Peachtree Street Northwest, Atlanta",
+      "foot_traffic": 76,
+      "distance": 0.05,
+      "vicinity": "33 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "SmoQ'n Hot Grill",
+      "name": "Ferran Ernesto MD",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 76,
+      "distance": 0.05,
+      "vicinity": "15 Charles Street # 6H, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Mills Bernard S MD",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 76,
+      "distance": 0.05,
+      "vicinity": "15 Charles Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Roberts Enrique A B MD",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 76,
+      "distance": 0.05,
+      "vicinity": "15 Charles Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Blaustein Paint & Hardware",
+      "type": [],
+      "rating": 3.5,
+      "reviews": 46,
+      "foot_traffic": 88,
+      "distance": 0.06,
+      "vicinity": "51 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Joyner Carpet",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 75,
+      "distance": 0.06,
+      "vicinity": "22 Charles Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Mah-Ze-Dahr Bakery",
+      "type": [],
+      "rating": 4.6,
+      "reviews": 870,
+      "foot_traffic": 115,
+      "distance": 0.06,
+      "vicinity": "28 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Nadas - Rainbow Gluten Free Empanadas",
       "type": [],
       "rating": 4.7,
-      "reviews": 143,
-      "foot_traffic": 230,
-      "distance": 0.16,
-      "vicinity": "756 West Peachtree Street Northwest, Atlanta",
-      "business_status": "CLOSED_TEMPORARILY"
-    },
-    {
-      "name": "Humble Mumble",
-      "type": [],
-      "rating": 4.4,
-      "reviews": 45,
-      "foot_traffic": 278,
-      "distance": 0.16,
-      "vicinity": "756 West Peachtree Street Northwest, Atlanta",
+      "reviews": 220,
+      "foot_traffic": 118,
+      "distance": 0.06,
+      "vicinity": "48 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Costa Coffee - Atlanta Midtown",
+      "name": "Greenwich Village Farm",
       "type": [],
-      "rating": 4.2,
-      "reviews": 37,
-      "foot_traffic": 156,
-      "distance": 0.17,
-      "vicinity": "CODA Building, 756 West Peachtree Street Northwest, Atlanta",
+      "rating": 4.6,
+      "reviews": 24,
+      "foot_traffic": 115,
+      "distance": 0.06,
+      "vicinity": "33 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Tiff's Treats Cookie Delivery",
-      "type": [],
-      "rating": 4.4,
-      "reviews": 208,
-      "foot_traffic": 198,
-      "distance": 0.17,
-      "vicinity": "Square on Fifth, 848 Spring Street Northwest Ste B, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Daydreamer Coffee",
-      "type": [],
-      "rating": 4.2,
-      "reviews": 96,
-      "foot_traffic": 264,
-      "distance": 0.17,
-      "vicinity": "859 Spring Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Bro-Ritos",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 251,
-      "distance": 0.17,
-      "vicinity": "756 West Peachtree Street Northwest Ste. D, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Cypress Street Pint & Plate",
-      "type": [],
-      "rating": 4.5,
-      "reviews": 3421,
-      "foot_traffic": 592,
-      "distance": 0.17,
-      "vicinity": "817 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Poke Burri",
+      "name": "Holey Cream",
       "type": [],
       "rating": 4.1,
-      "reviews": 209,
-      "foot_traffic": 649,
-      "distance": 0.17,
-      "vicinity": "756 West Peachtree Street Northwest Suite H, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "KSV JEWERY",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 384,
-      "distance": 0.2,
-      "vicinity": "848 Spring Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Apotheos Coffee Midtown",
-      "type": [],
-      "rating": 4.8,
-      "reviews": 95,
-      "foot_traffic": 691,
-      "distance": 0.2,
-      "vicinity": "740 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Moge tee & Korean Style Chicken",
-      "type": [],
-      "rating": 4.4,
-      "reviews": 30,
-      "foot_traffic": 373,
-      "distance": 0.2,
-      "vicinity": "848 Spring Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Moe's Southwest Grill",
-      "type": [],
-      "rating": 4,
-      "reviews": 723,
-      "foot_traffic": 488,
-      "distance": 0.2,
-      "vicinity": "85 5th Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Zoe Tacos",
-      "type": [],
-      "rating": 4.8,
-      "reviews": 6,
-      "foot_traffic": 450,
-      "distance": 0.2,
-      "vicinity": "75 5th Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Cargoatlanta",
-      "type": [],
-      "rating": 4.7,
-      "reviews": 14,
-      "foot_traffic": 331,
-      "distance": 0.21,
-      "vicinity": "800 Peachtree Street Northeast, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Starbucks",
-      "type": [],
-      "rating": 4,
-      "reviews": 379,
-      "foot_traffic": 368,
-      "distance": 0.22,
-      "vicinity": "708 Spring Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Cricket Wireless Authorized Retailer",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 314,
-      "distance": 0.28,
-      "vicinity": "754 Peachtree Street Northeast, Atlanta",
+      "reviews": 41,
+      "foot_traffic": 102,
+      "distance": 0.06,
+      "vicinity": "50 Greenwich Avenue, New York",
       "business_status": "CLOSED_TEMPORARILY"
     },
     {
-      "name": "Einstein Bros. Bagels",
+      "name": "Bell Book & Candle",
       "type": [],
-      "rating": 3.9,
-      "reviews": 561,
-      "foot_traffic": 576,
-      "distance": 0.28,
-      "vicinity": "800 Peachtree Street Northeast, Atlanta",
+      "rating": 4.3,
+      "reviews": 332,
+      "foot_traffic": 108,
+      "distance": 0.06,
+      "vicinity": "141 West 10th Street # A, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "European Wax Center",
+      "name": "Gottino Enoteca e Salumeria",
       "type": [],
-      "rating": 4.9,
-      "reviews": 145,
-      "foot_traffic": 107,
-      "distance": 0.28,
-      "vicinity": "800 Peachtree Street Northeast D, Atlanta",
+      "rating": 4.5,
+      "reviews": 248,
+      "foot_traffic": 112,
+      "distance": 0.06,
+      "vicinity": "52 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "BenchMark Physical Therapy",
-      "type": [],
-      "rating": 4.6,
-      "reviews": 42,
-      "foot_traffic": 161,
-      "distance": 0.28,
-      "vicinity": "800 Peachtree Street Northeast E2, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Big Peach Ride + Run - Midtown",
-      "type": [],
-      "rating": 4.7,
-      "reviews": 281,
-      "foot_traffic": 317,
-      "distance": 0.29,
-      "vicinity": "800 Peachtree Street Northeast suite b&c, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Great American Bacon Race Packet Pick up",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 105,
-      "distance": 0.29,
-      "vicinity": "800E Peachtree Street Northeast, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Indigo Spring: Atlanta\u2019s Premium Alkaline Spring Water Delivery Service",
+      "name": "Gnocchi on 9th",
       "type": [],
       "rating": 4.8,
-      "reviews": 49,
-      "foot_traffic": 180,
-      "distance": 0.3,
-      "vicinity": "730 Peachtree Street Northeast, Atlanta",
+      "reviews": 10,
+      "foot_traffic": 120,
+      "distance": 0.06,
+      "vicinity": "50 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Jackson Edgar N MD",
+      "name": "Umami Sushi",
+      "type": [],
+      "rating": 4.5,
+      "reviews": 501,
+      "foot_traffic": 112,
+      "distance": 0.06,
+      "vicinity": "50 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Le Baratin",
+      "type": [],
+      "rating": 4.5,
+      "reviews": 528,
+      "foot_traffic": 112,
+      "distance": 0.06,
+      "vicinity": "26 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Eric W. Sherman, LCSW",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 336,
-      "distance": 0.31,
-      "vicinity": "21 8th Street Northeast, Atlanta",
+      "foot_traffic": 75,
+      "distance": 0.06,
+      "vicinity": "30 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Dr. Michael C. Mclarnon, MD",
+      "name": "Bluestone Lane Collective Caf",
+      "type": [],
+      "rating": 4.5,
+      "reviews": 889,
+      "foot_traffic": 112,
+      "distance": 0.07,
+      "vicinity": "55 Greenwich Avenue, New York",
+      "business_status": "CLOSED_TEMPORARILY"
+    },
+    {
+      "name": "Morandi",
+      "type": [],
+      "rating": 4.3,
+      "reviews": 1442,
+      "foot_traffic": 107,
+      "distance": 0.07,
+      "vicinity": "211 Waverly Place, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Casa Piada",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 146,
-      "distance": 0.34,
-      "vicinity": "849 Peachtree Street Northeast, Atlanta",
-      "business_status": "OPERATIONAL"
+      "foot_traffic": 74,
+      "distance": 0.07,
+      "vicinity": "55 Greenwich Avenue, New York",
+      "business_status": "CLOSED_TEMPORARILY"
     },
     {
-      "name": "S2 Telehealth Technologies",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 125,
-      "distance": 0.35,
-      "vicinity": "915 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Benjamin Fernando, MD",
-      "type": [],
-      "rating": 2,
-      "reviews": 3,
-      "foot_traffic": 193,
-      "distance": 0.35,
-      "vicinity": "805 Peachtree Street Northeast Suite A, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "AllCare Primary & Immediate Care",
+      "name": "Marian\u2019s",
       "type": [],
       "rating": 4.6,
-      "reviews": 1033,
-      "foot_traffic": 420,
-      "distance": 0.35,
-      "vicinity": "805 Peachtree Street Northeast Suite A, Atlanta",
+      "reviews": 192,
+      "foot_traffic": 114,
+      "distance": 0.07,
+      "vicinity": "24 Greenwich Avenue, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Strayhorn Gregory MD",
+      "name": "Greenwhich Caf\u00e9",
+      "type": [],
+      "rating": 5,
+      "reviews": 19,
+      "foot_traffic": 123,
+      "distance": 0.08,
+      "vicinity": "58 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Fiddlesticks Pub",
+      "type": [],
+      "rating": 4,
+      "reviews": 784,
+      "foot_traffic": 99,
+      "distance": 0.08,
+      "vicinity": "56 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Perle",
+      "type": [],
+      "rating": 4.9,
+      "reviews": 23,
+      "foot_traffic": 121,
+      "distance": 0.08,
+      "vicinity": "22 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "The Perry Club by Pasta By Hudson",
+      "type": [],
+      "rating": 4.3,
+      "reviews": 188,
+      "foot_traffic": 106,
+      "distance": 0.08,
+      "vicinity": "157 7th Ave S Bet. Perry St. &, Waverly Place, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "NY FRESH PIZZA",
+      "type": [],
+      "rating": 4.4,
+      "reviews": 116,
+      "foot_traffic": 108,
+      "distance": 0.08,
+      "vicinity": "167 7th Avenue South, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Rosemary's",
+      "type": [],
+      "rating": 4.3,
+      "reviews": 2425,
+      "foot_traffic": 105,
+      "distance": 0.08,
+      "vicinity": "18 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Jack\u2019s Stir Brew Coffee",
+      "type": [],
+      "rating": 4,
+      "reviews": 283,
+      "foot_traffic": 98,
+      "distance": 0.09,
+      "vicinity": "138 West 10th Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Art to Ware",
+      "type": [],
+      "rating": 5,
+      "reviews": 10,
+      "foot_traffic": 122,
+      "distance": 0.09,
+      "vicinity": "21 Greenwich Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "HYER GOODS",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 105,
-      "distance": 0.36,
-      "vicinity": "805 Peachtree Street Northeast, Atlanta",
+      "foot_traffic": 73,
+      "distance": 0.09,
+      "vicinity": "21 Greenwich Avenue, New York",
+      "business_status": "CLOSED_TEMPORARILY"
+    },
+    {
+      "name": "Dr. Jonathann Kuo, MD",
+      "type": [],
+      "rating": 4.8,
+      "reviews": 101,
+      "foot_traffic": 114,
+      "distance": 0.12,
+      "vicinity": "160 7th Avenue South, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Mindwaves Mental Health",
+      "name": "Dr. Thomas Pitts",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 71,
+      "distance": 0.12,
+      "vicinity": "160 7th Avenue South Unit B, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Dr. Maritza Gattereau-Edwards, MD",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 71,
+      "distance": 0.12,
+      "vicinity": "160 7th Avenue South, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Dhara Shah, DPM - Curalta Foot + Ankle",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 71,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Jacqueline Prevete",
       "type": [],
       "rating": null,
       "reviews": null,
       "foot_traffic": 70,
-      "distance": 0.38,
-      "vicinity": "855 Peachtree Street Northeast UNIT 3401, Atlanta",
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Dr. Olakunle Ajibola",
+      "name": "Dr. Jeremy Britto",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 353,
-      "distance": 0.39,
-      "vicinity": "688 Spring Street Northwest, Atlanta",
+      "foot_traffic": 70,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Brownlee Shaun L MD",
+      "name": "Dr. Pooja Shah",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 336,
-      "distance": 0.39,
-      "vicinity": "688 Spring Street Northwest, Atlanta",
+      "foot_traffic": 70,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Wainstein Jeffrey T MD",
+      "name": "Michael Mazer",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 70,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Dr. Anuj Gogna",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 70,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Dr. Joseph Alencherry, DPM, FACFAS, FACPM",
       "type": [],
       "rating": 5,
-      "reviews": 1,
-      "foot_traffic": 171,
-      "distance": 0.39,
-      "vicinity": "688 Spring Street Northwest, Atlanta",
+      "reviews": 2,
+      "foot_traffic": 118,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Physio - Atlanta - Midtown",
+      "name": "Foot and Ankle Surgeons of New York - An Affiliate of Curalta Foot + Ankle",
       "type": [],
-      "rating": 4.8,
-      "reviews": 125,
-      "foot_traffic": 160,
-      "distance": 0.39,
-      "vicinity": "855 Peachtree Street Northeast Suite 1B, Atlanta",
+      "rating": 4.7,
+      "reviews": 89,
+      "foot_traffic": 111,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Payton Sheila MD",
+      "name": "Dr. Fred De Lucia, DPM, FACFAS, FACFAOM",
+      "type": [],
+      "rating": 4.5,
+      "reviews": 2,
+      "foot_traffic": 106,
+      "distance": 0.13,
+      "vicinity": "7 Christopher Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Carnes Raymond E MD",
       "type": [],
       "rating": null,
       "reviews": null,
-      "foot_traffic": 258,
-      "distance": 0.43,
-      "vicinity": "Atlanta",
+      "foot_traffic": 70,
+      "distance": 0.13,
+      "vicinity": "1 Christopher Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "Dr. Malaika E. Berkeley",
+      "name": "Dr. Christopher S. Hinson, MD",
       "type": [],
-      "rating": 3.1,
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 70,
+      "distance": 0.14,
+      "vicinity": "153 West 11th Street, New York",
+      "business_status": "CLOSED_TEMPORARILY"
+    },
+    {
+      "name": "Feldman Jayme Raddi",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 70,
+      "distance": 0.14,
+      "vicinity": "153 West 11th Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Citi",
+      "type": [],
+      "rating": 2.8,
+      "reviews": 30,
+      "foot_traffic": 61,
+      "distance": 0.21,
+      "vicinity": "395 6th Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Bank of America",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 63,
+      "distance": 0.25,
+      "vicinity": "224 West 4th Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Bank of America Financial Center",
+      "type": [],
+      "rating": 2.5,
+      "reviews": 26,
+      "foot_traffic": 53,
+      "distance": 0.25,
+      "vicinity": "224 West 4th Street, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Bank of America Video Banking",
+      "type": [],
+      "rating": null,
+      "reviews": null,
+      "foot_traffic": 63,
+      "distance": 0.26,
+      "vicinity": "375 6th Avenue, New York",
+      "business_status": "OPERATIONAL"
+    },
+    {
+      "name": "Chase Bank",
+      "type": [],
+      "rating": 3.8,
       "reviews": 11,
-      "foot_traffic": 417,
-      "distance": 0.43,
-      "vicinity": "814 Juniper Street Northeast, Atlanta",
+      "foot_traffic": 79,
+      "distance": 0.28,
+      "vicinity": "204 West 4th Street, New York",
       "business_status": "OPERATIONAL"
     },
     {
-      "name": "le Denteorgia Dental Implant Center",
+      "name": "Wells Fargo Bank",
       "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 238,
-      "distance": 0.44,
-      "vicinity": "900 Peachtree Street Northeast, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Famil",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 69,
-      "distance": 0.45,
-      "vicinity": "675 West Peachtree Street Northwest, Atlanta",
-      "business_status": "OPERATIONAL"
-    },
-    {
-      "name": "Dr. Mossud M. Smith, DDS",
-      "type": [],
-      "rating": null,
-      "reviews": null,
-      "foot_traffic": 344,
-      "distance": 0.48,
-      "vicinity": "763 Juniper Street Northeast, Atlanta",
+      "rating": 2.8,
+      "reviews": 14,
+      "foot_traffic": 58,
+      "distance": 0.28,
+      "vicinity": "374 6th Avenue, New York",
       "business_status": "OPERATIONAL"
     }
   ],
-  "image_directory": "/Users/dhruvnarang/Desktop/hacklytics/pictures/location_20250222_141851_20250222_141857"
+  "image_directory": "/Users/dhruvnarang/Desktop/hacklytics/hack-25/flask/pictures/location_20250222_204625_20250222_204633"
 }
 
 ANALYSIS:
-### Area Characteristics and Business Environment
+Location Analysis
 
-1. **Business Density and Diversity**: The area hosts 75 businesses within a relatively small radius (average distance of 0.19 miles), indicating a dense business environment. The diversity is moderate, with 12 different types of businesses identified, suggesting a variety of services and products available to consumers.
+Overview
+The location is situated in a bustling area with coordinates 40.73522016367622, -74.00066149999999. The environment is characterized by a high density of businesses within a compact area, with an average distance of 0.08 miles between them. This suggests a competitive landscape with a diverse range of business types.
 
-2. **Traffic and Accessibility**: The location benefits from substantial foot traffic, with a total of 25,278 and a daily walking volume of 14,634. This high pedestrian activity is complemented by peak hours traffic of 2,926, indicating good accessibility and potential customer flow.
+Business Environment
+- Average Business Rating: 2.84
+- Total Foot Traffic: 7,259
+- Daily Walking Volume: 10,000
+- Peak Hours Traffic: 2,000
 
-3. **Business Ratings**: The average business rating is relatively low at 2.64, which could suggest either a high number of underperforming businesses or a competitive environment where only a few businesses excel.
+The area benefits from substantial foot traffic, which is a critical factor for business success. However, the average business rating of 2.84 indicates room for improvement in customer satisfaction or service quality.
 
-4. **Visual Appeal**: The presence of 10 panoramic views of top-rated businesses suggests that some businesses invest in maintaining an attractive storefront, which can enhance customer attraction and retention.
+Business Diversity and Competition
+The diversity of business types is moderate, with 12 different types identified. This diversity can attract a wide range of customers, but it also means potential competition, especially if similar businesses are nearby.
 
-### Key Success Factors and Opportunities
+Key Success Factors and Opportunities
+- High Foot Traffic: The significant foot traffic presents an opportunity for businesses that can capitalize on walk-in customers.
+- High Ratings: Some businesses, such as "Sugarcamp Productions" and "Catherine Angiel," have high ratings, indicating strong customer satisfaction and potential role models for new businesses.
+- Temporary Closures: Businesses like "New Amsterdam Realty" are temporarily closed, which might reduce competition temporarily and provide opportunities for new entrants.
 
-1. **High Foot Traffic**: Leveraging the high foot traffic is crucial. Businesses that can capture the attention of pedestrians, such as cafes, retail stores, or quick-service restaurants, are likely to thrive.
+Specific Recommendations for Business Development
+- Focus on Customer Experience: Improving customer satisfaction can enhance the average business rating and attract more customers.
+- Leverage High Foot Traffic: Businesses should consider strategies to capture the attention of the high volume of pedestrians, such as attractive storefronts or special promotions.
+- Explore Complementary Offerings: Identifying and collaborating with complementary businesses can create a synergistic environment that benefits all parties involved.
 
-2. **Quality and Service Improvement**: Given the low average rating, there is a significant opportunity for businesses to differentiate themselves through superior customer service and quality offerings.
+Comparative Analysis with Previous Locations
+Compared to other locations, this area has a higher foot traffic volume and a slightly lower average business rating. The compact nature of the area suggests a more competitive environment, which can be both an opportunity and a challenge for new businesses.
 
-3. **Niche Markets**: With a variety of business types, there is room for niche markets or specialized services that are not currently saturated.
+Trends or Patterns Observed Across Different Locations
+- Foot Traffic Importance: High foot traffic consistently emerges as a critical factor for business success across different locations.
+- Customer Satisfaction: There is a recurring need to focus on improving customer satisfaction to enhance business ratings and attract more customers.
+- Business Diversity: A moderate level of business diversity is common, providing both opportunities and competition for new businesses.
 
-4. **Collaborative Opportunities**: Businesses can benefit from partnerships or collaborations, particularly those that can cross-promote or share customer bases.
-
-### Specific Recommendations for Business Development
-
-1. **Enhance Customer Experience**: Focus on improving customer service and product quality to boost ratings and reviews, which can lead to increased customer loyalty and word-of-mouth promotion.
-
-2. **Marketing and Visibility**: Utilize the high foot traffic by investing in visible signage and engaging storefront displays. Consider digital marketing strategies targeting local consumers.
-
-3. **Community Engagement**: Engage with the local community through events or partnerships with nearby businesses to build a strong local presence and customer base.
-
-4. **Adapt to Trends**: Stay informed about consumer trends and preferences in the area to adapt offerings accordingly, such as incorporating sustainable practices or offering unique experiences.
-
-### Comparative Analysis with Previous Locations
-
-- **Traffic and Density**: Compared to other locations, this area shows a high density of businesses and foot traffic, which is a positive indicator for potential business success.
-- **Rating Disparity**: The lower average rating suggests that while the area is bustling, there may be challenges in maintaining high service standards or competition is fierce.
-- **Diverse Business Types**: The presence of multiple business types is consistent with urban settings, offering both opportunities and challenges in terms of competition and market saturation.
-
-### Trends or Patterns Observed Across Different Locations
-
-1. **Foot Traffic as a Key Driver**: Locations with high foot traffic consistently show better business potential, emphasizing the importance of accessibility and visibility.
-
-2. **Service Quality Impact**: Areas with higher average ratings tend to have more successful businesses, highlighting the importance of customer satisfaction and service excellence.
-
-3. **Business Clustering**: Successful locations often feature clusters of complementary businesses that drive mutual traffic and enhance the overall attractiveness of the area.
-
-4. **Adaptation and Innovation**: Businesses that adapt to local trends and innovate in their offerings tend to perform better, suggesting the need for continuous market analysis and flexibility.
-
-In conclusion, this location presents a promising opportunity for businesses that can capitalize on the high foot traffic and improve upon the generally low service ratings. By focusing on quality, visibility, and community engagement, businesses can enhance their success potential in this vibrant area.
+Conclusion
+The location presents a promising opportunity for businesses that can leverage the high foot traffic and focus on improving customer satisfaction. The moderate diversity and density of businesses suggest a competitive but potentially lucrative environment. Businesses should focus on enhancing customer experience and exploring complementary offerings to maximize their success in this area.
 ================================================================================
